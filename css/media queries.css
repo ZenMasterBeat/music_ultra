@@ -1,0 +1,432 @@
+@media screen and (orientation: portrait) { 
+  body {
+    background-image: url(image/ipad.jpg);
+    background-position: 0px 0px;
+    }
+}
+@media screen and (max-width: 1595px) {
+.videoBlock {
+        width: 1004px;
+        height: 546px;
+        }
+.call {
+    width: 1004px;
+    height: 526px;
+    margin: 40px auto;
+    margin-bottom: 1px;
+    }
+}
+
+@media screen and (max-width: 1403px) {
+
+.contenierMobile {display: none;}
+.contenierMobileiphone {display: none;}
+.contenier {
+    display: block;
+    max-width: 1100px;
+} 
+.videoBlock {            
+    width: 890px;
+    height: 501px;
+    margin-right: 50px;          
+}
+.call {
+    width: 890px;
+    height: 501px;
+    margin-right: 50px auto;
+}
+    }
+       
+                /*---------------------------------------------------------------*/
+
+@media screen and (max-width: 1233px) {
+body {
+    background-position: 0px 0px;
+}
+.contenier {display: none;}
+.contenierMobileiphone {display: none;}
+.navMobile {
+    width: 170px;
+    height: 35px;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.header {
+    letter-spacing: 40px;
+    height: 41px;
+    font-size: 32px;
+    position: fixed;
+}
+.BGPhoto {
+    background-color: #fff;
+    top: 0px;
+}
+.photoMobile {
+    width: 70%;
+    margin-left: 100px;
+    /*float: left;*/
+}
+/*.galleryMobile {}*/
+.contenierMobile {
+    max-width: 900px;
+    margin-top: 40px;
+    display: block;
+}
+
+.videoBlock {
+    width: 870px;
+    height: 490px;
+    margin: 30px 40px;
+}
+.call {
+    width: 890px;
+    height: 501px;
+    margin: 30px 40px;
+}
+.callClose  {
+    /*transition: none;*/
+}
+.about {
+    margin: 40px auto 5px 35px;
+    width: 83%;
+}
+.contact {
+    margin-top: 150px;
+}
+    }
+                   /*------------------------------------------------------------*/
+
+    @media screen and (max-width: 970px) {
+
+.contenier {display: none;}
+.contenierMobileiphone {display: none;}
+.navMobile {
+    width: 162px;
+    height: 33px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.header {
+    letter-spacing: 35px;
+    height: 40px;
+    font-size: 34px;
+    position: fixed;
+}
+.BGPhoto {
+    top: 0;
+    background-color: #fff;
+}
+.contenierMobile {
+    display: block;
+    max-width: 775px;
+    margin-top: 37px;
+}        
+.videoBlock {
+    width: 690px;
+    height: 410px;
+    margin: 80px auto;
+}
+.call {
+    width: 710px;
+    height: 445px;
+    margin: 80px auto;
+}
+.about {
+    width: 640px;
+    margin: 80px auto;
+}
+.contact {
+    width: 530px;
+    margin-top: 200px;
+}
+.contact li {
+    margin-left: 70px;
+}
+    }
+@media screen and (max-width: 780px) {
+    .navMobile {
+        width: 135px;
+        height: 28px;
+        font-size: 23px;
+    }
+    .call {
+        width: 90%;
+        height: 468px;
+        margin: 80px 47px 2px auto;
+        /*margin-right: 55px;*/
+    }
+    .about {
+    width: 81%;
+    margin: 80px 47px 2px auto;
+}
+}
+@media screen and (max-width: 650px) {
+    .header {
+        font-size: 30px;
+        height: 36px;
+        letter-spacing: 32px;
+    }
+    .contenierMobile {
+        margin-top: 31px;
+        
+    }
+
+    .navMobile {
+        width: 137px;
+        height: 25px;
+        font-size: 21px;
+        border-radius: 7px;
+    }
+}
+/*/////////////////////////////////////////////////////////////////IPHONE*/
+@media screen and (max-width: 600px) and (orientation: portrait){
+
+    .contenier {display: none;}
+    .contenierMobile {display: none;}
+    .header {
+        letter-spacing: 13px;
+        height: 30px;
+        font-size: 23px;
+        position: fixed;
+    }
+    .menu {
+        width: 32px;
+        height: 24px;
+        background: url(image/menu.svg);
+        background-size: 32px 24px;
+        right: 5px;
+        top: 35px;
+        position: fixed;
+        z-index: 9999;
+   }
+   .menu:active {
+        opacity: .7;
+   }
+    .navMobileiphone {
+        display: block;
+        font-family: 'PT Sans';
+        width: 130px;
+        height: 35px;
+        margin: 10px 0px 0px 10px;
+        font-size: 26px;
+        padding-bottom: 1px;
+        letter-spacing: 1px;
+        /*cursor: none;*/
+        color: #fff;
+        background-color: #000;
+        border-radius: 5px;
+        box-shadow: 1px 3px 5px #999;
+        cursor: default;
+    }
+    #mainMobileiphone {margin: 86px 0px 0px 10px;}
+    #aboutMobileiphone, #photoMobileiphone, #calendarMobileiphone, #mainMobileiphone {
+        letter-spacing: 2px;
+    }
+    .contenierMobileiphone {
+        display: block;
+        width: 150px;
+        height: 100%;
+        right: -170px;
+        top: 0;
+        /*border: 2px solid #000;*/
+        margin: 0px;
+        position: fixed;
+        background-color: rgb(240, 240, 240);
+        opacity: .9;
+        z-index: 999;
+        /*transform: translateX(0px);*/
+        transition: transform .3s ease;
+    }
+    .contenierMobileiphone1 {
+        transform: translateX(-170px);
+    }
+    .BGPhoto {
+        /*display: block;*/
+        opacity: 1;
+        background-color: #fff;
+        top: 0px;
+        /*border: solid 2px #faa;*/
+    }
+    .photoMobile {
+        /*border: solid 2px #faa;*/
+        width: 87%;
+        margin: 50px auto 5px 4px;
+    }
+    #photoClose {
+        display: none;
+
+    }
+    .caliPhone {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 1.1em;
+        text-align: left;
+        padding: 0px;
+        /*display: block;*/
+        margin: 40px 0px 0px 0px;
+        width: 284px;
+        height: 100%;
+        /*background-color: #fff;*/
+        /*border: solid 1px #000;*/
+        z-index: 8;
+        position: relative;
+    }
+    .caliPhone li {
+        /*background-color: #fff;*/
+        list-style: none;
+        border-bottom: dashed 1px #000;
+    }
+    .about {
+        padding-top: 5px;
+        margin: 30px 0px 0px 0px;
+        font-size: 1.1em;
+        width: 260px;
+        position: relative;
+        z-index: 8;
+        box-shadow: none;
+    }
+    .videoBlock {
+        margin: 90px auto;
+        width: 320px;
+        height: 235px;
+        position: relative;
+        z-index: 8;
+        box-shadow: none;
+    }
+    .contact {
+        padding: 0px;
+        width: 315px;
+        margin: 190px 0px 0px 0px;
+        box-shadow: none;
+        position: relative;
+        z-index: 8;
+    }
+    .contact li {
+        margin: 0px;
+        font-size: 0.9em;
+    }
+    
+}
+@media screen and (max-width: 800px) and (orientation: landscape) {
+
+    .contenier {display: none;}
+    .contenierMobile {display: none;}
+    .header {
+        letter-spacing: 17px;
+        height: 30px;
+        font-size: 23px;
+        position: fixed;
+    }
+    .menu {
+        /*display: none;*/
+        width: 32px;
+        height: 24px;
+        background: url(image/menu.svg);
+        background-size: 100%;
+        right: 5px;
+        top: 3px;
+        position: fixed;
+        z-index: 9999;
+   }
+   .menu:active {
+    opacity: .7;
+   }
+    .navMobileiphone {
+        display: inline-block;
+        font-family: 'PT Sans';
+        width: 15%;
+        height: 23px;
+        margin: 3px 0px 0px 2px;
+        font-size: 17px;
+        padding-bottom: 1px;
+        letter-spacing: 1px;
+        color: #fff;
+        background-color: #000;
+        border-radius: 5px;
+        box-shadow: 1px 3px 5px #999;
+        cursor: default;
+    }
+    /*#mainMobileiphone {margin: 65px 0px 0px 10px;}*/
+    #aboutMobileiphone, #photoMobileiphone, #calendarMobileiphone, #mainMobileiphone {
+        letter-spacing: 2px;
+    }
+    .contenierMobileiphone {
+        display: block;
+        width: 100%;
+        height: 32px;
+        right: 0px;
+        top: -40px;
+        margin: 0px;
+        position: fixed;
+        background-color: rgb(240, 240, 240);
+        opacity: .9;
+        z-index: 999;
+        /*position: relative;*/
+        transition: transform .3s ease;
+    }
+    .contenierMobileiphone1 {
+        transform: translateY(70px);
+    }
+    .BGPhoto {
+        /*display: block;*/
+        opacity: 1;
+        background-color: #fff;
+        top: 0px;
+        /*border: solid 2px #faa;*/
+    }
+    .caliPhone {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 1.1em;
+        text-align: left;
+        padding: 0px;
+        margin: 40px auto;
+        width: 284px;
+        height: 100%;
+        z-index: 8;
+        position: relative;
+    }
+    .caliPhone li {
+        list-style: none;
+        border-bottom: dashed 1px #000;
+    }
+    .about {
+        padding-top: 5px;
+        margin: 30px auto;
+        font-size: 1.1em;
+        width: 260px;
+        position: relative;
+        z-index: 8;
+        box-shadow: none;
+    }
+    .videoBlock {
+        margin: 40px auto;
+        margin-bottom: 0px;
+        width: 500px;
+        height: 260px;
+        position: relative;
+        z-index: 8;
+        box-shadow: none;
+    }
+    .contact {
+        padding: 0px;
+        width: 315px;
+        margin: 40px 0px 0px 0px;
+        box-shadow: none;
+        position: relative;
+        z-index: 8;
+    }
+    .contact li {
+        margin: 0px;
+        font-size: 0.9em;
+    }
+
+}
+@media screen and (max-width: 530px) and (orientation: landscape) {
+    .navMobileiphone {
+        font-size: 15px;
+        height: 21px;
+    }
+    .contenierMobileiphone {
+        height: 30px;
+    }
+}
+
