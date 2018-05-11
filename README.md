@@ -1,3 +1,3 @@
 # music_ultra
 
-Source code of site for cover-group "Ultrafiolet".
+Source code of site for cover-group "Ultraviolet".
